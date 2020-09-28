@@ -2,7 +2,7 @@ import React from 'react'
 import Card from './Card';
 
 const Skill = ({ children, title, skills }) => {
-  
+
   const listOfSkill = skills.map((item, index) => {
     return (
       <Card key={item.id} title={item.name} logo={item.logo} />

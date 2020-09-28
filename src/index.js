@@ -5,6 +5,7 @@ import * as serviceWorker from './serviceWorker';
 
 
 import './assets/index.scss'
+import 'aos/dist/aos.css'
 
 ReactDOM.render(<App />,
   document.getElementById('root')

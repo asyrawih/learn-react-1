@@ -1,7 +1,14 @@
 import React, { Component } from 'react';
 import photoProfile from '../../assets/img/hanan.jpg'
 import { Skill, Hero } from './component';
+import AOS from 'aos'
 class Homepage extends Component {
+
+  componentDidMount() {
+    AOS.init({ duration: 1500})
+    AOS.refresh()
+  }
+
   render() {
     const skills = [
       { id: 1, name: 'JavaScript', logo: "https://img.icons8.com/dusk/64/000000/javascript-logo.png" },
