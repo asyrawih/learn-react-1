@@ -11,6 +11,13 @@ class Homepage extends Component {
       { id: 3, name: 'PHP', logo: "https://img.icons8.com/dusk/128/000000/php-logo.png" },
       { id: 4, name: 'DART', logo: "https://img.icons8.com/color/100/000000/dart.png" }
     ]
+
+    const framwork = [
+      { id: 1, name: 'Laravel', logo: "https://img.icons8.com/dusk/128/000000/php-logo.png" },
+      { id: 2, name: 'Vue', logo: "https://img.icons8.com/color/48/000000/vue-js.png" },
+      { id: 3, name: 'React', logo: "https://img.icons8.com/clouds/100/000000/react.png" },
+      { id: 4, name: 'Flutter', logo: "https://img.icons8.com/color/100/000000/flutter.png" }
+    ]
     return (
       <div className="homepage">
         <Navbar />
@@ -33,11 +40,13 @@ class Homepage extends Component {
 
         <Skill
           title="Framework"
-          skills={skills}
+          skills={framwork}
         >
-          Tentu saja seorang developer takluput dengan bahasa yang di gunakan sebagai
-          alat tempur dalam menyelesaikan suatu problem tertentu . bahasa yang saat ini
-          yang saya percayai dalam menyelesaikan masalah ialah
+          Seiring Pekembangan jaman teknologi pun kian memesat kebutuhan terhadap pasar
+          kian membesar . sama hal nya dengan developer bahasa pemograman pun kian berkembang 
+          dengan pesat demi memenuhi kebutuhan pasar . pengerjaan cepat handal dan stabil 
+          ialah prioritas utama dalam membangun system yang tepat maka dari saya pun 
+          mempercayakan kepada framework yang handal dan kekinian
         </Skill>
       </div>
     );
