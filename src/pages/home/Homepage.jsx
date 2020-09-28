@@ -4,16 +4,13 @@ import photoProfile from './component/hanan.jpg'
 import { Skill, Hero } from './component';
 
 class Homepage extends Component {
-
   render() {
-
     const skills = [
-      { id: 1, name: 'JavaScript', logo: "https://img.icons8.com/clouds/100/000000/github.png" },
+      { id: 1, name: 'JavaScript', logo: "https://img.icons8.com/dusk/64/000000/javascript-logo.png" },
       { id: 2, name: 'Python', logo: "https://img.icons8.com/dusk/128/000000/python.png" },
       { id: 3, name: 'PHP', logo: "https://img.icons8.com/dusk/128/000000/php-logo.png" },
       { id: 4, name: 'DART', logo: "https://img.icons8.com/color/100/000000/dart.png" }
     ]
-
     return (
       <div className="homepage">
         <Navbar />
