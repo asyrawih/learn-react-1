@@ -7,13 +7,13 @@ import 'aos/dist/aos.css'
 
 const animation = () => {
   AOS.init({
-    duration: 500
+    duration: 1000
   })
 }
 
 const App = () => {
   
-  useEffect(animation, []);
+  useEffect(animation, [animation]);
 
   return (
     <div className="App">
