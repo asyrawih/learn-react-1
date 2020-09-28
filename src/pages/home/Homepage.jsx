@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Navbar } from '../../components';
-import photoProfile from './component/hanan.jpg'
+import photoProfile from '../../assets/img/hanan.jpg'
 import { Skill, Hero } from './component';
 
 class Homepage extends Component {

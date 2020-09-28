@@ -15,14 +15,14 @@ const Hero = (props) => {
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">{title}</h1>
           <p className="mb-8 leading-relaxed">{props.children}</p>
           <div className="flex justify-center">
-            <button className={githubButton}>
+            <a href="https://www.github.com/hananloser" className={githubButton}>
               <img className="w-5 h-5 mr-2 mt-1" src="https://img.icons8.com/color/48/000000/github-2.png" alt="github" />
               Github
-            </button>
-            <button className={facebookButton}>
+            </a>
+            <a href="https://www.facebook.com/hananloser" className={facebookButton}>
               <img className="w-5 h-5 mr-2 mt-1" src="https://img.icons8.com/doodle/48/000000/facebook-new.png" alt="" />
               Facebook
-              </button>
+              </a>
           </div>
         </div>
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
