@@ -7,18 +7,19 @@ import 'aos/dist/aos.css'
 
 const animation = () => {
   AOS.init({
-    duration: 1000
+    duration: 2000
   })
+  AOS.refresh()
 }
 
 const App = () => {
   
-  useEffect(animation, [animation]);
+  useEffect(animation, []);
 
   return (
     <div className="App">
       <Navbar />
-      <Homepage />
+        <Homepage />
       <Footer />
     </div>
   );

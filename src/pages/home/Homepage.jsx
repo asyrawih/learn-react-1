@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import photoProfile from '../../assets/img/hanan.jpg'
 import { Skill, Hero } from './component';
-
 class Homepage extends Component {
   render() {
     const skills = [

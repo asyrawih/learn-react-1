@@ -14,7 +14,7 @@ const Hero = (props) => {
         <div className={introSection}>
           <h1 data-aos="fade-down" className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">{title}</h1>
           <p data-aos="slide-left" className="mb-8 leading-relaxed">{props.children}</p>
-          <div data-aos="slide-left" className="flex justify-center">
+          <div data-aos="slide-left" data-aos-delay="100" className="flex justify-center">
             <a href="https://www.github.com/hananloser" className={githubButton}>
               <img className="w-5 h-5 mr-2 mt-1" src="https://img.icons8.com/color/48/000000/github-2.png" alt="github" />
               Github
