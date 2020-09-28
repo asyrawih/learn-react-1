@@ -1,10 +1,25 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import { Footer, Navbar } from './components';
 import Homepage from './pages/home/Homepage';
 
-function App() {
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+
+const animation = () => {
+  AOS.init({
+    duration: 500
+  })
+}
+
+const App = () => {
+  
+  useEffect(animation, []);
+
   return (
     <div className="App">
+      <Navbar />
       <Homepage />
+      <Footer />
     </div>
   );
 }

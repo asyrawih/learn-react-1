@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Navbar } from '../../components';
 import photoProfile from '../../assets/img/hanan.jpg'
 import { Skill, Hero } from './component';
 
@@ -20,7 +19,7 @@ class Homepage extends Component {
     ]
     return (
       <div className="homepage">
-        <Navbar />
+
         <Hero
           images={photoProfile}
           title="Hai Sahabat ! 😗"
@@ -43,10 +42,10 @@ class Homepage extends Component {
           skills={framwork}
         >
           Seiring Pekembangan jaman teknologi pun kian memesat kebutuhan terhadap pasar
-          kian membesar . sama hal nya dengan developer bahasa pemograman pun kian berkembang 
-          dengan pesat demi memenuhi kebutuhan pasar . pengerjaan cepat handal dan stabil 
-          ialah prioritas utama dalam membangun system yang tepat maka dari saya pun 
-          mempercayakan kepada framework yang handal dan kekinian
+          kian membesar . sama hal nya dengan developer bahasa pemograman pun kian berkembang
+          dengan pesat demi memenuhi kebutuhan pasar . pengerjaan cepat handal dan stabil
+          ialah prioritas utama dalam membangun system yang tepat maka dari itu saya pun
+          mempercayakan kepada framework
         </Skill>
       </div>
     );
